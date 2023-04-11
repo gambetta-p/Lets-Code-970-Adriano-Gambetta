@@ -1,6 +1,6 @@
-import funcoes
+from funcoes import *
 
-def calcule ():
+def calcule():
     a = float(input('Informe o primeiro número: '))
     b = float(input('Informe o segundo número: '))
 
@@ -10,6 +10,6 @@ def calcule ():
                       \n 1 - Soma
                        \n 2 - Subtração
                         \n 3 - Divisão
-                         \n 4 - Multiplicação '''))
+                         \n 4 - Multiplicação\n'''))
     
-    print(operacao(opcao - 1)(a, b))
+    print(operacao[opcao - 1](a,b))
